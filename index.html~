@@ -62,7 +62,7 @@
     <section id="about" class="wow fadeIn">
       <div class="container">
         <div class="row">
-          <div class="col-sm-9" style="text-align: justify;">
+          <div class="col-sm-9">
             <h2>About</h2>
             <p>Biologist turned Data Scientist, with 8+ years of experience 
 				in bioinformatics. My expertise lies in integrative analysis of high- throughput biological data 
@@ -71,7 +71,7 @@
 				machine learning, network models and other related methods. I have a MSc in Genetics and a PhD in 
 				Bioinformatics by the <a href='https://www.unicamp.br/unicamp/english'>University of Campinas</a>.</p>
           </div>
-          <div class="col-sm-3 text-left" style="text-align: justify;"> 
+          <div class="col-sm-3 text-left"> 
           	<h2>Contact</h2>
           	<p>
           	<b>EMAIL:</b> felipe.ciamponi@gmail.com <br>

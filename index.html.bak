@@ -4,7 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="fciamponi" >
+    <meta name="author" content="webthemez">
     <title>Felipe Ciamponi, PhD</title>
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -14,7 +14,7 @@
     <link href="css/styles.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>    <script src="js/respond.min.js"></script>    <![endif]-->
-    <link rel="shortcut icon" href="images/ico/gt_favicon.png">
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
   </head>
   <body id="home">
     <header id="header">
@@ -24,12 +24,12 @@
               data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle
                 navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span>
               <span class="icon-bar"></span> </button><a class="navbar-brand" href="index.html"><img
-                src="images/logo_FC.png" style='height: 60px; width: auto' alt="logo"></a> </div>
+                src="images/logo.png" alt="logo"></a> </div>
           <div class="collapse navbar-collapse navbar-right">
             <ul class="nav navbar-nav">
               <li class="scroll active"><a href="#home">Home</a></li>
-              <li class="scroll"><a href="#about">About</a></li>
               <li class="scroll"><a href="#features">Features</a></li>
+              <li class="scroll"><a href="#about">About</a></li>
               <li class="scroll"><a href="#services">Services</a></li>
               <li class="scroll"><a href="#portfolio">Portfolio</a></li>
               <li class="scroll"><a href="#our-team">Team</a></li>
@@ -59,43 +59,21 @@
       </div>
     </section>
     <!--/#main-slider-->
-    <section id="about" class="wow fadeIn">
+    <section id="hero-text" class="wow fadeIn">
       <div class="container">
         <div class="row">
-          <div class="col-sm-9" style="text-align: justify;">
-            <h2>About</h2>
-            <p>Biologist turned Data Scientist, with 8+ years of experience 
-				in bioinformatics. My expertise lies in integrative analysis of high- throughput biological data 
-				(<a href="https://en.wikipedia.org/wiki/Multiomics">"multi-omics"</a>), but I also have extensive 
-				experience in dealing with high-performance computing clusters, statistics, high dimensional datasets, 
-				machine learning, network models and other related methods. I have a MSc in Genetics and a PhD in 
-				Bioinformatics by the <a href='https://www.unicamp.br/unicamp/english'>University of Campinas</a>.</p>
+          <div class="col-sm-9">
+            <h2>Best Flat Responsive Free Bootstrap Template</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+              eget risus vitae massa semper aliquam quis mattis quam. Morbi
+              vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus
+              ut euismod massa, eu eleifend ipsum. </p>
           </div>
-          <div class="col-sm-3 text-left" style="text-align: justify;"> 
-          	<h2>Contact</h2>
-          	<p>
-          	<b>EMAIL:</b> felipe.ciamponi@gmail.com <br>
-          	<b>ADDRESS:</b> Av. Cândido Rondon, 400 <br>
-				Campinas, SP, Brazil - CEP: 13083-875<br>
-          	<b>LANGUAGE:</b> English and Portuguese
-          	</p>
-          </div>
+          <div class="col-sm-3 text-right"> <a class="btn btn-primary btn-lg" href="#">Get
+              It Now!</a> </div>
         </div>
-     </div>
-     <br><br><br><br><br>
-	  <div class="container">
-	  	<div class="row">
-	  	 <ul class="timeline">
-			<li data-year="2013" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
-			<li data-year="2014" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
-			<li data-year="2015" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
-			<li data-year="2016" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
-			<li data-year="2017" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
-		 </ul>
-	  	</div>
-	  </div>
+      </div>
     </section>
- 
     <!--/#hero-text-->
     <section id="features">
       <div class="container">
@@ -149,6 +127,36 @@
         </div>
       </div>
     </section>
+    <section id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title text-center wow fadeInDown">About Us</h2>
+          <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Praesent eget risus vitae massa <br>
+            semper aliquam quis mattis quam.</p>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 wow fadeInLeft"> <img class="img-responsive" src="images/about.png"
+              alt=""> </div>
+          <div class="col-sm-6 wow fadeInRight">
+            <h3 class="column-title">Our Company</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+              eget risus vitae massa semper aliquam quis mattis quam. Morbi
+              vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus
+              ut euismod massa, eu eleifend ipsum.</p>
+            <p>Nulla eu neque commodo, dapibus dolor eget, dictum arcu. In nec
+              purus eu tellus consequat ultricies. Donec feugiat tempor turpis,
+              rutrum sagittis mi venenatis at. Sed molestie lorem a blandit
+              congue. Ut pellentesque odio quis leo volutpat, vitae vulputate
+              felis condimentum. </p>
+            <p>Praesent vulputate fermentum lorem, id rhoncus sem vehicula eu.
+              Quisque ullamcorper, orci adipiscing auctor viverra, velit arcu
+              malesuada metus, in volutpat tellus sem at justo.</p>
+            <a class="btn btn-primary" href="#">Learn More</a> </div>
+        </div>
+      </div>
+    </section>
+    <!--/#about-->
     <section id="services">
       <div class="container">
         <div class="section-header">
