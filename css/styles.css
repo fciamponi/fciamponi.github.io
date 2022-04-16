@@ -858,6 +858,7 @@ padding: 7px 0 0;
 	content: attr(data-text);
 	font-size: 16px;
 	position: absolute;
+	width: 200px;
 	left: 50%;
 	transform: translateX(-50%);
 }
@@ -871,4 +872,125 @@ padding: 7px 0 0;
 	top: 0;
 	margin-top: -10px;
 	transform: translate(-50%, -100%);
+}
+
+/*************************
+*****Follow me buttons****
+**************************/
+
+/* Style all font awesome icons */
+.fa-brands {
+  padding: 0px;
+  font-size: 30px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  position: relative;
+}
+
+/* Add a hover effect if you want */
+.fa-brands:hover {
+  opacity: 1;
+  background: #ffffff;
+  color: #295D8A;
+}
+
+/* LINKEDIN */
+.fa-linkedin-in {
+  background: #0072b1;
+  color: #FFFFFF;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  top: -2px;
+  padding-top: 6px;
+  padding-left: 1px;
+}
+
+/* Add a hover effect if you want */
+.fa-linkedin-in:hover {
+  background: #295D8A;
+  color: #ffffff;
+}
+
+/* GITHUB */
+.fa-github {
+  background: #ffffff;
+  color: #43464B;
+}
+
+/* GITHUB */
+.fa-facebook {
+	background: #ffffff;
+	font-size: 32px;
+   width: 30px;
+   height: 30px;
+	color: #4267B2;
+	top: 2px;
+}
+
+/* Style all academy icons */
+.ai {
+  padding: 0px;
+  font-size: 30px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  position: relative;
+}
+
+/* Add a hover effect if you want */
+.ai:hover {
+  opacity: 1;
+  background: #ffffff;
+  color: #295D8A;
+}
+
+/* ORCID */
+.ai-orcid {
+  background: #ffffff;
+  color: #a6ce39;
+  font-size: 32px;
+  width: 32px;
+  height: 32px;
+  top: 1px;
+}
+
+/* STACK */
+.ai-stackoverflow {
+  background: #F48024;
+  color: #FFFFFF;
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  top: -3px;
+  padding-left: 6px;
+}
+
+/* Add a hover effect if you want */
+.ai-stackoverflow:hover {
+  background: #295D8A;
+  color: #ffffff;
+}
+
+/* GOOGLE SCHOLAR */
+.ai-google-scholar {
+  background: #DB4437;
+  color: #FFFFFF;
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  top: 0px;
+  padding-top: 3px;
+  padding-left: 0px;
+}
+
+/* Add a hover effect if you want */
+.ai-google-scholar:hover {
+  background: #295D8A;
+  color: #ffffff;
 }
